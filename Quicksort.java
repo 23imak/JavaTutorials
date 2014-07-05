@@ -39,7 +39,6 @@ public class Quicksort {
 			quicksort(low, j);
 		if (i < high)
 			quicksort(i, high);
-		return numbers[i];
 	}
 
 	private void exchange(int i, int j) {
