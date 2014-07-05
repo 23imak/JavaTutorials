@@ -11,6 +11,7 @@ public class BinarySearch {
 		while (start <= end) {
 			int mid = (start + end) / 2;
 			if (search == array[mid]) {
+				//element found
 				return mid;
 			}
 			if (search < array[mid]) {
@@ -19,6 +20,7 @@ public class BinarySearch {
 				start = mid + 1;
 			}
 		}
+		//Element not found
 		return -1;
 
 	}
