@@ -8,10 +8,13 @@ public class BinarySearch {
 /**
  * 
  * @param search
+ * the number to be searched
  * @param option
+ * to check the index of the number if its repeating; either first or last
  * @return
+ * returns the number if found else returns -1
  */
-	// 
+	
 	public int searchNumber(int search,String option) {
 		int start = 0;
 		int position = -1;
